@@ -1,2 +1,3 @@
 # BlockSecureFlag
 BlockSecureFlag
+下载安装后到xposed安装器中启用模块,勾选需要阻止添加WindowManager.LayoutParams.FLAG_SECURE标志的app,这里需要注意下支付宝、网上银行类的app不建议拦截,像支付宝里的付款码,商家拿到后,直接就能扣费,不需要用户这边的确认。所以其实这款应用是可以用在多个有同样原理的APP当中，只要是不允许截图的应用应该都能通过这种方式来绕过这个限制。
